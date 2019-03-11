@@ -1,0 +1,39 @@
+h1{
+    text-align:center;
+    color:#25274d;
+    font-size:75px;
+    
+}
+
+p{   
+    text-align:center;
+    color:#2e9cca;
+    font-size:30px;
+    
+}
+hr{
+    color: #29448a;
+    
+    
+}
+
+
+
+
+.center{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.pets{
+    width: 25%;
+    margin-left: 15%;
+    margin-right: 2%;
+}
+.fence{
+    width: 30%;
+    margin-left: 8%;
+    margin-right: 8%;
+}

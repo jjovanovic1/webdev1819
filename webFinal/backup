@@ -14,7 +14,7 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <title>
-            All About Jovan
+            ALL ABOUT ME
         </title>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -24,73 +24,38 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#section1">Homepage</a>
+          <a class="nav-link" href="#section1">Section 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#section2">Sports</a>
+          <a class="nav-link" href="#section2">Section 2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#section3">Schooling</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#section4">Nationality</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#section5">Pets</a>
+          <a class="nav-link" href="#section3">Section 3</a>
         </li>
       </ul>
     </nav>
 
-      <div id="section1" class="container-fluid bg-secondary">
-        <div class=container-fluid>
+      <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+        <div class="container-fluid">
           <div class="jumbotron">
-            <hr>
-            <h1>Jovan Jovanovic</h1>  
-            <hr>
+            <h1>Jovan Jovanovic</h1>      
             <p>ALL ABOUT ME</p>
-            <hr>
           </div>
-      </div>
-      <div id="section2" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px;background-color:#">
-        <hr>
-        <h1>Sports</h1>
-        <hr>
-        <p>I've been Fencing for 6 years I love Fencing and its my passion. I hope to achieve great things throughout my fencing career.</p>
-        <hr>
-        <div>
-          <img src="images/fence1.JPG" class="fence">
-          <img src="images/fence3.PNG" class="fence">
         </div>
       </div>
+      <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+        <h1>Section 2</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
       <div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
-        <hr>
-        <h1>Schooling</h1>
-        <hr>
-        <p>I go to Lane Tech High shool. I love it there and I'm glad that I got into the school. My favorite subject is probably Geometry.</p>
-        <hr>
-        <img src="images/lane logo.jpg" class="center">
-      </div>
-      <div id="section4" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
-        <hr> 
-        <h1>Nationality</h1>
-        <hr>
-        <p>I was born in the city of Zajecar, Serbia in the year 2004. I Love my country and I always will. Being Serbian is somethig that I take pride in.</p>
-        <hr> 
-        <img src="images/serbianflag.png" id="flag" class="center">
-      </div>
-      <div id="section5" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
-        <hr> 
-        <h1>Pets</h1>
-        <hr>
-        <p>I have two pets that I love with all of my heart. One of them is a cat, who's breed I unfortunately I don't know.I do know that he is black with gray stripes and that he is adorable. My other pet is a 100 pound German Shepard who's name is Bugsy.</p>
-        <hr>
-        <div> 
-          <img src="images/djole.jpg" class="pets"> 
-          <img src="images/bugsy.jpg" class="pets" >
-        </div>  
+        <h1>Section 3</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
       </div>
 
-  </body>
+
+
     <!--<nav class="navbar navbar-inverse navbar-fixed-top">-->
     <!--  <div class="container-fluid">-->
     <!--    <div class="navbar-header">-->
@@ -129,6 +94,7 @@
     <!--  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>-->
     <!--</div>-->
 
+  </body>
 
 
     
