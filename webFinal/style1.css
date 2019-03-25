@@ -1,0 +1,35 @@
+h1{
+    text-align:center;
+    color:#252525;
+    font-size: 65px;
+    font-family: 'Germania One', cursive;
+}
+#section1{
+    background-color: #c62828;
+    
+    
+
+}
+#section2{
+    background-color: #1565c0;
+    
+}
+#section3{
+     background-color: #ffffff;
+     
+}
+p{
+    color: #999999;
+    font-size:27px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

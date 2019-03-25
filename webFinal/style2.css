@@ -1,0 +1,38 @@
+h1{
+    text-align:center;
+    color:#eec015;
+    font-size: 65px;
+    font-family: 'Cinzel', serif;
+}
+#section1{
+    background:url('https://i.pinimg.com/236x/65/61/da/6561daf14566b77e7c153b545a074dbe--fencing-sport-user-experience-design.jpg')
+    center center;
+    background-repeat:no-repeat; 
+    background-size: contain;
+    background-color: #303f42;
+    height: 550px;
+}
+
+#section2{
+    background-color: #303f42
+}
+#section3{
+     background-color: #303f42
+}
+p{
+    color: #ffffff;
+    font-size:27px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+#spic{
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

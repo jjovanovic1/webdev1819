@@ -1,102 +1,87 @@
-<!DOCTYPE html>
 <html>
-  <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <head>
+          <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style1.css">
         <title>
-            ALL ABOUT ME
+            
         </title>
-  </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
         
   
         
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#section1">Section 1</a>
+          <a class="nav-link" href="#section1">Homepage</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#section2">Section 2</a>
+          <a class="nav-link" href="#section2">Historical</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#section3">Section 3</a>
+          <a class="nav-link" href="#section3">Modern</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#section4">How it works</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#section5"></a>
         </li>
       </ul>
     </nav>
 
-      <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
-        <div class="container-fluid">
-          <div class="jumbotron">
-            <h1>Jovan Jovanovic</h1>      
-            <p>ALL ABOUT ME</p>
-          </div>
+    <div class="jumbotron jumbotron-fluid" id="section1" style ="padding-top:145px;padding-bottom:70px;">
+      <div class="container">
+        <h1 style="color:white;">Fencing</h1> 
+        <p>Bootstrap is the most popular HTML, CSS...</p> 
+      </div>
+    </div>
+      
+      <div id="section2" class="container-fluid" style="padding-top:70px;padding-bottom:70px;backrou" >
+        <hr>
+        <h1>Historical</h1>
+        <hr>
+        <p>The idea of modern day fencing originated in mid-18th century Spain. The most famous books about fencing were written by Spanish fencers. Before it became a sport, fencing was a part of military training, and eventually became a way to settle disagreements between people. eventually it spread to the rest of europe and was especially popular in France.</p>
+        <hr>
+        <div>
+          
         </div>
       </div>
-      <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
-        <h1>Section 2</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <div id="section3" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+        <hr>
+        <h1></h1>
+        <hr>
+        <p></p>
+        <hr>
       </div>
-      <div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
-        <h1>Section 3</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <div id="section4" class="container-fluid " style="padding-top:70px;padding-bottom:70px">
+        <hr> 
+        <h1></h1>
+        <hr>
+        <p></p>
+        <hr> 
       </div>
-
-
-
-    <!--<nav class="navbar navbar-inverse navbar-fixed-top">-->
-    <!--  <div class="container-fluid">-->
-    <!--    <div class="navbar-header">-->
-    <!--        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">-->
-    <!--          <span class="icon-bar"></span>-->
-    <!--          <span class="icon-bar"></span>-->
-    <!--          <span class="icon-bar"></span>                        -->
-    <!--        </button>-->
-    <!--      <a class="navbar-brand" href="#">WebSiteName</a>-->
-    <!--    </div>-->
-    <!--    <div>-->
-    <!--      <div class="collapse navbar-collapse" id="myNavbar">-->
-    <!--        <ul class="nav navbar-nav">-->
-    <!--          <li><a href="#section1">Sports</a></li>-->
-    <!--          <li><a href="#section2">Nationality</a></li>-->
-    <!--          <li><a href="#section3">Religion</a></li>-->
-    <!--        </ul>-->
-    <!--      </div>-->
-    <!--    </div>-->
-    <!--  </div>-->
-    <!--</nav>    -->
-
-    <!--<div id="#section1" class="container-fluid headers">-->
-    <!--  <h1>Sports</h1>-->
-    <!--  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>-->
-    <!--  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>-->
-    <!--</div>-->
-    <!--<div id="#section2" class="container-fluid" class="headers">-->
-    <!--  <h1>Nationality</h1>-->
-    <!--   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>-->
-    <!--   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>-->
-    <!--</div>-->
-    <!--<div id="#section3" class="container-fluid" class="headers">-->
-    <!--  <h1>Religion</h1>-->
-    <!--  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>-->
-    <!--  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>-->
-    <!--</div>-->
+      <div id="section5" class="container-fluid " style="padding-top:70px;padding-bottom:70px">
+        <hr> 
+        <h1></h1>
+        <hr>
+        <p></p>
+        <hr>
+        <div> 
+          
+        </div>  
+      </div>
 
   </body>
-
-
-    
-    
 </html>

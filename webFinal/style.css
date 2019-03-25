@@ -1,23 +1,23 @@
 h1{
     text-align:center;
-    color:#25274d;
+    color:#2e9cca;
     font-size:75px;
     
 }
 
 p{   
     text-align:center;
-    color:#2e9cca;
+    color:#aaabb8;
     font-size:30px;
     
 }
 hr{
-    color: #29448a;
-    
-    
+    color: #29648a;
 }
 
-
+/*#section1{*/
+/*    background-color: #25274d ;*/
+/*}*/
 
 
 .center{
@@ -37,3 +37,24 @@ hr{
     margin-left: 8%;
     margin-right: 8%;
 }
+#section1{
+   background-color: #25274d;
+}
+#section2{
+    background-color: #25274d;
+}
+
+#section3{
+    background-color: #25274d;
+} 
+
+#section4{
+    background-color: #25274d;
+}
+
+#section5{
+    background-color: #25274d;
+}   
+
+
+    
